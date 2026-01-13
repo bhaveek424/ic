@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DC3834E52F156B4A001E8D6E /* claude.md in Resources */ = {isa = PBXBuildFile; fileRef = DC3834E42F156B44001E8D6E /* claude.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DC3834C82F156B39001E8D6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		DC3834B72F156B37001E8D6E /* iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3834C72F156B39001E8D6E /* iphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3834D12F156B39001E8D6E /* iphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iphoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3834E42F156B44001E8D6E /* claude.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = claude.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		DC3834AE2F156B36001E8D6E = {
 			isa = PBXGroup;
 			children = (
+				DC3834E42F156B44001E8D6E /* claude.md */,
 				DC3834B92F156B37001E8D6E /* iphone */,
 				DC3834CA2F156B39001E8D6E /* iphoneTests */,
 				DC3834D42F156B39001E8D6E /* iphoneUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3834E52F156B4A001E8D6E /* claude.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +416,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = iphone.iphone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhaveek.iphonescreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -437,7 +444,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = iphone.iphone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhaveek.iphonescreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;

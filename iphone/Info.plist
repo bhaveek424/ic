@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Agent-style app: No Dock icon, no menu bar -->
+    <key>LSUIElement</key>
+    <true/>
+    
+    <!-- Allow automatic termination -->
+    <key>NSSupportsAutomaticTermination</key>
+    <true/>
+    
+    <!-- Don't allow sudden termination (need cleanup) -->
+    <key>NSSupportsSuddenTermination</key>
+    <false/>
+    
+    <!-- App can run without GUI -->
+    <key>LSBackgroundOnly</key>
+    <false/>
+    
+    <!-- Minimum macOS version -->
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+    
+    <!-- App category -->
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    
+    <!-- Network usage description (for device discovery if needed) -->
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Used to discover iPhone on local network</string>
+
+    <!-- Camera usage description (Required for accessing iPhone via USB) -->
+    <key>NSCameraUsageDescription</key>
+    <string>Used to capture the screen of the connected iPhone.</string>
+    
+    <!-- Allow continuity camera access -->
+    <key>NSCameraUseContinuityCameraDeviceType</key>
+    <true/>
+    
+    <!-- Screen capture usage description (May be required for AVFoundation) -->
+    <key>NSScreenCaptureDescription</key>
+    <string>Used to capture and display the iPhone screen content.</string>
+
+    <!-- Screen recording permission for ScreenCaptureKit -->
+    <key>NSSystemAdministrationUsageDescription</key>
+    <string>Used to capture QuickTime Player window showing iPhone screen.</string>
+</dict>
+</plist>
