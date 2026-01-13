@@ -27,7 +27,7 @@ class TranslucentWindow: NSPanel {
         isOpaque = false
         backgroundColor = .clear
         hasShadow = true
-        alphaValue = 0.4  // More translucent (was 0.95, now 0.6 - lower is more transparent)
+        alphaValue = 0.4      // More translucent (was 0.95, now 0.6 - lower is more transparent)
         
         // CRITICAL: Click-through behavior - all clicks pass to apps behind
         ignoresMouseEvents = true
